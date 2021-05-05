@@ -40,7 +40,7 @@ The above protections shall not be construed to {prohibit or restrict} public {t
 
 ### Motions
 
-A motion is a proposed action to be taken by the CONsortium as an entity in theory, and allows members to take action to implement it in practice. This includes but is not limited to:
+A motion is a proposed action to be taken by the CONsortium as an entity in theory, and once passed allows members to take action to implement it in practice. This includes but is not limited to:
 
 * Adopting new rules
 * Making changes to the discord server
@@ -89,10 +89,10 @@ A motion ends when the motion's potential result (pass or fail based on the numb
 
 ### Order of precedence
 
-<DESCRIPTION/SIGNIFICANCE OF BELOW>
+The law and prescribed actions of the CONsortium are the whole sum of the constitution and all passed motions, taken together. Sections of the constitution and/or sections of motions ("texts") may contradict eachother; If so then the first applicable bullet point below resolves the contradiction.
 
 * {Super motions and the constitution} take precedence over simple motions
-* If a text says it overrides the other but not vice-versa, then it does.
+* If a text says it overrides the other (or other similar phrasing) but not vice-versa, then it does.
 * The text that passed later overrides the text that was passed earlier.
 
 ### Default interpretations
@@ -102,3 +102,17 @@ In case of any vagueness or simple lack of mentioning, the following defaults ap
 * If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington
 * If a motion depends on when a message was "posted" or "sent" or similar, it is assumed to be the timestamp assigned to the message by discord, obtainable by extracting it from the snowflake ID.
 * A motion that is phrased as changing the state of the universe is assumed to mean the CONsortium shall take action to make that change happen.
+
+### Override votes
+
+A unanimous vote of Shelvacu, Ben, and Colin can do anything a super motion can do, and does so as soon as all three votes are made in favor.
+
+### Supreme Leaders
+
+The only members with the title of "Supreme Leader" are Shelvacu, Ben, and Matt.
+
+### The Transition
+
+This constitution wholly replaces the previous constitution.
+
+All {fungibles, motions, and transactions} and history thereof shall continue existing unless otherwise stated.
