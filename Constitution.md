@@ -36,3 +36,9 @@ The transactions that an entity has participated in are private, and must not be
 * It is authorized by a simple motion or greater (ONLY if at least one party is a {bot, legal fiction, or other non-person})
 
 The above protections shall not be construed to {prohibit or restrict} public {transfers or fabrication} of fungibles, even if such {transfers or fabrication} may in effect reveal details about an entity's {balances or transactions}.
+
+### Motions
+
+A motion is a proposed {action to be taken or rule to be created}.
+
+Any person with the requisite PC can call a motion
