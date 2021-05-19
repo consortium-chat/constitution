@@ -2,6 +2,10 @@ IN PROGRESS
 
 # The CONstitution of the CONsortium
 
+### Members
+
+TODO::What even are members?
+
 ### Fungibles
 
 Fungibles are indivisible units of currency that may be useful for other purposes.
@@ -62,9 +66,9 @@ A motion is first Proposed, then voted on, then possibly Passed. A motion can no
 
 #### Calling motions
 
-Any member with the requisite PC to call a motion has the inalienable right to call that motion.
+All members have the inalienable right to call motions if they have enough pc to do so and have not exceeded their daily limit.
 
-COMMENT: Should we have a limit on the number of motions per day?
+Each member is limited to 10 motions of any kind each UTC day.
 
 To call a simple motion, a member must have enough PC to vote for that motion at least **once**. When called, they do and must vote for that motion at least **once**.
 
@@ -72,9 +76,9 @@ To call a super motion, a member must have enough PC to vote for that motion at 
 
 #### Voting on motions
 
-Any member with the requisite PC to vote on a motion has the inalienable right to vote on that motion.
+All members have the inalienable right to vote on pending motions if they have enough pc to do so.
 
-A member can not change the "direction" (in favor or against) of their vote after deciding.
+A member can not change the "direction" (in favor or against) of their vote after their first vote, including 0-votes.
 
 Each member's first vote on each motion costs 40 PC. The cost of each additional vote by that member is 40 * 1.05^N rounded down, where N is the number of votes that member has already cast on that measure.
 
@@ -82,7 +86,7 @@ Who voted on a motion, in which direction, when, and how many votes shall be a m
 
 #### End of a motion
 
-A motion ends when the motion's potential result (pass or fail based on the number of votes) hasn't changed for 48 hours. At that moment, the motion can no longer be voted on, and becomes law if it passes.
+A motion ends when the motion's potential result (pass or fail based on the number of votes) hasn't changed for 48 hours. At that moment, the motion can no longer be voted on, and goes into effect if it passes.
 
 ### Order of precedence
 
@@ -98,11 +102,12 @@ In case of any vagueness or simple lack of mentioning, the following defaults ap
 
 * If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington
 * If a motion depends on when a message was "posted" or "sent" or similar, it is assumed to be the timestamp assigned to the message by discord, obtainable by extracting it from the snowflake ID.
-* A motion that is phrased as changing the state of the universe is assumed to mean the CONsortium shall take action to make that change happen.
+* A motion that is phrased as changing some state of the universe is assumed to mean the CONsortium shall take action to make that change happen.
+* A supermotion that does things not allowed by the constitution implicitly ammends the constitution to allow it to do those things, in the minimal amount posible.
 
 ### Override votes
 
-A unanimous vote of Shelvacu, Ben, and Colin can do anything a super motion can do, and does so as soon as all three votes are made in favor.
+A unanimous vote of Shelvacu, Ben, and Colin can do anything a super motion can do, and does so immediately as soon as all three votes are made in favor.
 
 ### Supreme Leaders
 
