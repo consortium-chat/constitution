@@ -56,10 +56,7 @@ There are two kinds of motions:
   * are limited in that they are less powerful than the constitution. Simple motions cannot ammend the constitution. Simple motions cannot override the constitution, and in the case of any contradiction between a simple motion and the constitution in text and/or in effect, the constitution shall take precedence.
 * Super motions, which
   * require more than two-thirds of the votes on that motion to be in favor AND
-  * are not at all limited. Super motions can do anything once passed, including but not limited to:
-    * Ammending the constitution
-    * Overriding the constitution
-    * Fabricating, transferring, and/or destroying fungibles
+  * are not at all limited. Super motions can do anything once passed, including but not limited to ammending or overriding the constitution.
 
 A motion is first Proposed, then voted on, then possibly Passed. A motion can not have any effect before it is passed.
 
