@@ -2,6 +2,10 @@ IN PROGRESS
 
 # The CONstitution of the CONsortium
 
+### Preamble
+
+We, the members of the CONsortium, having resolved to ensure long-lasting consensus of moderation, perpetuate burocracy, and formalize schenanigans, do hereby adopt and commit to upholding this CONstitution.
+
 ### Members
 
 TODO::What even are members?
