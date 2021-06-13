@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<tome
+  xmlns="https://consortium.chat/tome"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://consortium.chat/tome tome.xsd">
+  <title>CONstitution</title>
+  <chapter id="🤔">
+    <title>Preamble</title>
+    <text>We, the CONstituents of the CONsortium, having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize schenanigans, do hereby adopt and commit to upholding this CONstitution.</text>
+  </chapter>
+  <chapter id="🪙">
+    <title>Fungibles</title>
+    <section id="⚛️">
+      <text>Fungibles are indivisible units of currency that may be useful for other purposes.</text>
+    </section>
+    <section id="♾">
+      <text>Fungibles can not be created or destroyed.</text>
+    </section>
+    <section id="🧐">
+      <text>Fungibles are owned by persons. Fungibles may also be owned by bots, legal fictions, or other non-persons if authorized by a simple motion or greater.</text>
+    </section>
+    <section id="🧬">
+      <title>Types</title>
+      <text>The only kinds of fungibles are:</text>
+      <section id="⭐️">
+        <text>Political Capital (PC),</text>
+      </section>
+      <section id="⚡️">
+        <text>Generators (Gens), and</text>
+      </section>
+      <section id="💎">
+        <text>StatusBux (sb)</text>
+      </section>
+    </section>
+  </chapter>
+</tome>
