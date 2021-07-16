@@ -1,4 +1,6 @@
 <?xml version="1.0" standalone="no"?>
+
+<?xml-stylesheet href="tome.xsl" type="text/xsl"?>
 <tome
   xmlns="https://consortium.chat/tome"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +8,7 @@
   <title>CONstitution</title>
   <chapter id="🤔">
     <title>Preamble</title>
-    <text>We, the CONstituents of the CONsortium, having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize schenanigans, do hereby adopt and commit to upholding this CONstitution.</text>
+    <text>We, the CONstituents of the CONsortium, having resolved to <inlist join="and"><i>ensure long-lasting CONsensus of moderation</i><i>perpetuate burocracy</i><i>formalize schenanigans</i></inlist>, do hereby adopt and commit to upholding this CONstitution.</text>
   </chapter>
   <chapter id="💳">
     <title>Fungibles</title>
@@ -22,15 +24,11 @@
     <section id="🧬">
       <title>Types</title>
       <text>The only kinds of fungibles are:</text>
-      <section id="⭐️">
-        <text>Political Capital (PC),</text>
-      </section>
-      <section id="⚡️">
-        <text>Generators (Gens), and</text>
-      </section>
-      <section id="💎">
-        <text>StatusBux (sb)</text>
-      </section>
+      <list join="and">
+        <i id="⭐️">Political Capital (PC)</i>
+        <i id="⚡️">Generators (Gens)</i>
+        <i id="💎">StatusBux (sb)</i>
+      </list>
     </section>
   </chapter>
 </tome>
