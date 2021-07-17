@@ -5,10 +5,18 @@
   xmlns="https://consortium.chat/tome"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://consortium.chat/tome tome.xsd">
-  <title>CONstitution</title>
+  <title>The CONstitution</title>
   <chapter id="🤔">
     <title>Preamble</title>
-    <text>We, the CONstituents of the CONsortium, having resolved to <inlist join="and"><i>ensure long-lasting CONsensus of moderation</i><i>perpetuate burocracy</i><i>formalize schenanigans</i></inlist>, do hereby adopt and commit to upholding this CONstitution.</text>
+    <text>
+      We, the CONstituents of the CONsortium, having resolved to
+      <inlist join="and">
+        <item>ensure long-lasting CONsensus of moderation</item>
+        <item>perpetuate burocracy</item>
+        <item>formalize schenanigans</item>
+      </inlist>
+      , do hereby adopt and commit to upholding this CONstitution.
+    </text>
   </chapter>
   <chapter id="💳">
     <title>Fungibles</title>
@@ -25,10 +33,51 @@
       <title>Types</title>
       <text>The only kinds of fungibles are:</text>
       <list join="and">
-        <i id="⭐️">Political Capital (PC)</i>
-        <i id="⚡️">Generators (Gens)</i>
-        <i id="💎">StatusBux (sb)</i>
+        <item id="⭐️">Political Capital (PC)</item>
+        <item id="⚡️">Generators (Gens)</item>
+        <item id="💎">StatusBux (sb)</item>
       </list>
+    </section>
+  </chapter>
+  <chapter id="🧪">
+    <title>Testing testing 123</title>
+    <section id="📝">
+      <text>
+        Inlist:
+        <inlist join="andor">
+          <item>Thing one</item>
+          <item>Thing2</item>
+          <item>Thing Three</item>
+        </inlist>
+      </text>
+      <list join="and">
+        <item id="🛀">Thingggg</item>
+      </list>
+      <section id="📝">
+        <text>titleless</text>
+        <section id="📝">
+          <text>titleless</text>
+          <section id="📝">
+            <text>titleless</text>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section id="📝">
+      <list join="and">
+        <item id="🛀">
+          <inlist join="andor">
+            <item>Thing one</item>
+            <item>Thing2</item>
+            <item>Thing Three</item>
+          </inlist>
+        </item>
+      </list>
+    </section>
+    <section id="🐝">
+      <text>
+        abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba abcd abcde abacaba
+      </text>
     </section>
   </chapter>
 </tome>

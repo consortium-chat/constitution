@@ -36,7 +36,7 @@
   <xs:complexType name="inlistType">
     <xs:sequence>
       <xs:element
-        name="i"
+        name="item"
         type="tome:textType"
         maxOccurs="unbounded"
         />
@@ -49,7 +49,7 @@
   <xs:complexType name="outlistType">
     <xs:sequence>
       <xs:element
-        name="i"
+        name="item"
         type="tome:outlistItemType"
         maxOccurs="unbounded"
         />
