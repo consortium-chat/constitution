@@ -84,6 +84,19 @@
     </complexContent>
   </complexType>
 
+  <!-- Text without id -->
+  <complexType
+    name="noidTextType"
+    mixed="true">
+    <choice
+      minOccurs="0"
+      maxOccurs="unbounded">
+      <element
+        name="inlist"
+        type="tome:inlistType" />
+    </choice>
+  </complexType>
+
   <!-- Text base -->
   <complexType
     name="textType"
@@ -93,7 +106,7 @@
       maxOccurs="unbounded">
       <element
         name="inlist"
-        type="tome:listType" />
+        type="tome:inlistType" />
     </choice>
     <attribute
       name="id"
@@ -101,14 +114,34 @@
       use="required" />
   </complexType>
 
-  <!-- List declaration -->
-  <complexType name="listType">
-    <sequence
-      minOccurs="1"
-      maxOccurs="unbounded">
+  <!-- Inline list declaration -->
+  <complexType name="inlistType">
+    <sequence>
       <element
         name="item"
-        type="tome:textType" />
+        type="tome:noidTextType"
+        minOccurs="1"
+        maxOccurs="unbounded" />
+    </sequence>
+    <attribute
+      name="join"
+      type="tome:conjunction"
+      use="optional" />
+  </complexType>
+
+  <!-- List declaration -->
+  <complexType name="listType">
+    <sequence>
+      <element
+        name="intro"
+        type="tome:noidTextType"
+        minOccurs="0"
+        maxOccurs="1" />
+      <element
+        name="item"
+        type="tome:textType"
+        minOccurs="1"
+        maxOccurs="unbounded" />
     </sequence>
     <attribute
       name="id"
@@ -863,10 +896,10 @@
       <enumeration value="🎛" />
       <enumeration value="🧭" />
       <enumeration value="⏱" />
-      <enumeration value="⏲" />
+      <enumeration value="⏲️" />
       <enumeration value="⏰" />
       <enumeration value="🕰" />
-      <enumeration value="⌛️" />
+      <enumeration value="⌛" />
       <enumeration value="⏳" />
       <enumeration value="📡" />
       <enumeration value="🔋" />
@@ -1270,6 +1303,12 @@
       <enumeration value="🏴" />
       <enumeration value="🏁" />
       <enumeration value="🚩" />
+      <enumeration value="🗣️" />
+      <enumeration value="👤" />
+      <enumeration value="👶" />
+      <enumeration value="❔" />
+      <enumeration value="👁️" />
+      <enumeration value="✔" />
     </restriction>
   </simpleType>
 </schema>
