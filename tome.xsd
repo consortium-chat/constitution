@@ -95,6 +95,10 @@
         name="inlist"
         type="tome:listType" />
     </choice>
+    <attribute
+      name="id"
+      type="tome:idType"
+      use="required" />
   </complexType>
 
   <!-- List declaration -->
@@ -106,6 +110,10 @@
         name="item"
         type="tome:textType" />
     </sequence>
+    <attribute
+      name="id"
+      type="tome:idType"
+      use="required" />
     <attribute
       name="join"
       type="tome:conjunction"
@@ -489,10 +497,10 @@
       <enumeration value="🌎" />
       <enumeration value="🪐" />
       <enumeration value="💫" />
-      <enumeration value="⭐️" />
+      <enumeration value="⭐" />
       <enumeration value="🌟" />
       <enumeration value="✨" />
-      <enumeration value="⚡️" />
+      <enumeration value="⚡" />
       <enumeration value="☄️" />
       <enumeration value="💥" />
       <enumeration value="🔥" />
