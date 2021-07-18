@@ -3,6 +3,10 @@
     "editor.defaultFormatter": "redhat.vscode-xml",
     "editor.formatOnSave": true,
   },
+  "[xsl]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.formatOnSave": true,
+  },
   "xml.format.splitAttributes": true,
   "xml.format.preservedNewlines": 1,
   "xml.format.splitAttributesIndentSize": 1,
