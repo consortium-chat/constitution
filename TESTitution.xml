@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet href="tome.xsl" type="text/xsl"?>
+<tome
+  xmlns="https://consortium.chat/tome"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://consortium.chat/tome tome.xsd"
+  id="📜">
+  <title>The TESTitution</title>
+  <chapter id="👃">
+    <title>Conflicting chapter 1</title>
+  </chapter>
+  <chapter id="👃">
+    <title>Conflicting chapter 2</title>
+  </chapter>
+  <chapter id="😵">
+    <title>Lists</title>
+    <text id="👃">
+      This is an inline list of
+      <inlist join="andor">
+        <item>Thing1</item>
+        <item>Thing2</item>
+        <item>Thing3</item>
+      </inlist>
+    </text>
+    <list id="😵" join="and">
+      <intro>This is the intro to the list with joiner "and" and 1 item with an inlist</intro>
+      <item id="🌹">
+        <inlist join="or">
+          <item>The first item</item>
+          <item>Item the first</item>
+          <item>Item 1</item>
+        </inlist>
+      </item>
+    </list>
+    <list id="💟" join="andor">
+      <intro>This is the intro to the list with joiner "andor" and 2 items</intro>
+      <item id="🌹">Item 1</item>
+      <item id="💢">Item 2</item>
+    </list>
+  </chapter>
+  <chapter id="📜">
+    <title>Chapter of much nesting</title>
+    <section id="📜">
+      <title>Title</title>
+      <text id="😵">some text</text>
+      <section id="📜">
+        <title>Title</title>
+        <text id="😵">some text</text>
+        <section id="📜">
+          <title>Title</title>
+          <text id="😵">some text</text>
+          <section id="📜">
+            <title>Title</title>
+            <text id="😵">some text</text>
+            <section id="📜">
+              <title>Title</title>
+              <text id="😵">some text</text>
+              <section id="📜">
+                <title>Title</title>
+                <text id="😵">some text</text>
+                <section id="📜">
+                  <title>Title</title>
+                  <text id="😵">some text</text>
+                  <section id="📜">
+                    <title>Title</title>
+                    <text id="😵">some text</text>
+                    <section id="📜">
+                      <title>Title</title>
+                      <text id="😵">some text</text>
+                      <section id="📜">
+                        <title>Title</title>
+                        <text id="😵">some text</text>
+                        <section id="📜">
+                          <title>Title</title>
+                          <text id="😵">some text</text>
+                          <section id="📜">
+                            <title>Title</title>
+                            <text id="😵">some text</text>
+                            <section id="📜">
+                              <title>Title</title>
+                              <text id="😵">some text</text>
+                              <section id="📜">
+                                <title>Title</title>
+                                <text id="😵">some text</text>
+                                <section id="📜">
+                                  <title>Title</title>
+                                  <text id="😵">some text</text>
+                                  <section id="📜">
+                                    <title>Title</title>
+                                    <text id="😵">some text</text>
+                                    <section id="📜">
+                                      <title>Title</title>
+                                      <text id="😵">some text</text>
+                                      <section id="📜">
+                                        <title>Title</title>
+                                        <text id="😵">some text</text>
+                                        <section id="📜">
+                                          <title>Title</title>
+                                          <text id="😵">some text</text>
+                                          <section id="📜">
+                                            <title>Title</title>
+                                            <text id="😵">some text</text>
+                                            <section id="📜">
+                                              <title>Title</title>
+                                              <text id="😵">some text</text>
+                                              <section id="📜">
+                                                <title>Title</title>
+                                                <text id="😵">some text</text>
+                                                <section id="📜">
+                                                  <title>Title</title>
+                                                  <text id="😵">some text</text>
+                                                  <section id="📜">
+                                                    <title>Title</title>
+                                                    <text id="😵">some text</text>
+                                                  </section>
+                                                </section>
+                                              </section>
+                                            </section>
+                                          </section>
+                                        </section>
+                                      </section>
+                                    </section>
+                                  </section>
+                                </section>
+                              </section>
+                            </section>
+                          </section>
+                        </section>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+  </chapter>
+</tome>

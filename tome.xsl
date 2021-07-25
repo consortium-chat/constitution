@@ -47,7 +47,7 @@
 
   <xsl:template match="tome:chapter">
     <div class="chapter-body">
-      <div class="marker-goto-link">
+      <div class="marker-goto-link-chapter">
         <xsl:attribute name="id">
           <xsl:for-each select="./ancestor::*/@id">
             <xsl:value-of select="." />
@@ -195,14 +195,7 @@
       <div class="id-content">
         <xsl:apply-templates select="tome:intro" />
         <ul class="tome-list">
-          <xsl:for-each select="tome:item[position() &lt; last()]">
-            <li class="tome-list-item">
-              <span class="tome-list-id">
-                <xsl:value-of select="./@id" />
-              </span>
-              <xsl:apply-templates />
-            </li>
-          </xsl:for-each>
+          <xsl:apply-templates select="tome:item[position() &lt; last()]" />
           <xsl:if test="tome:item[position() = 2]">
             <li class="tome-list-join">
               <xsl:choose>
@@ -215,14 +208,7 @@
               </xsl:choose>
             </li>
           </xsl:if>
-          <xsl:for-each select="tome:item[position() = last()]">
-            <li class="tome-list-item">
-              <span class="tome-list-id">
-                <xsl:value-of select="./@id" />
-              </span>
-              <xsl:apply-templates />
-            </li>
-          </xsl:for-each>
+          <xsl:apply-templates select="tome:item[position() = last()]" />
         </ul>
       </div>
     </div>
@@ -230,8 +216,25 @@
 
   <xsl:template match="tome:list/tome:item">
     <li class="tome-list-item">
+      <div class="marker-goto-link">
+        <xsl:attribute name="id">
+          <xsl:for-each select="./ancestor::*/@id">
+            <xsl:value-of select="." />
+          </xsl:for-each>
+          <xsl:value-of select="@id" />
+        </xsl:attribute>
+      </div>
       <span class="tome-list-id">
-        <xsl:value-of select="./@id" />
+        <a class="id-link">
+          <xsl:attribute name="href">
+            <xsl:text>#</xsl:text>
+            <xsl:for-each select="./ancestor::*/@id">
+              <xsl:value-of select="." />
+            </xsl:for-each>
+            <xsl:value-of select="@id" />
+          </xsl:attribute>
+          <xsl:value-of select="@id" />
+        </a>
       </span>
       <xsl:apply-templates />
     </li>

@@ -40,12 +40,17 @@ p {margin-top: 0}
   z-index: 49;
 }
 
+.marker-goto-link-chapter,
 .marker-goto-link{
   position: relative;
 }
 
-.chapter-body>.marker-goto-link{
+.marker-goto-link-chapter{
   top: -46px;
+}
+
+.marker-goto-link{
+  top: -84px;
 }
 
 .chapter-body {
@@ -92,7 +97,7 @@ p {margin-top: 0}
   top: 112px;
   z-index: 47;
 }
-.section-with-title .id-without-title>.marker-goto-link
+.section-with-title .marker-goto-link
 {
   top: -112px;
 }
@@ -103,7 +108,7 @@ p {margin-top: 0}
   top: 140px;
   z-index: 46;
 }
-.section-with-title .section-with-title .id-without-title>.marker-goto-link
+.section-with-title .section-with-title .marker-goto-link
 {
   top: -140px;
 }
@@ -114,7 +119,7 @@ p {margin-top: 0}
   top: 168px;
   z-index: 45;
 }
-.section-with-title .section-with-title .section-with-title .id-without-title>.marker-goto-link
+.section-with-title .section-with-title .section-with-title .marker-goto-link
 {
   top: -168px;
 }
