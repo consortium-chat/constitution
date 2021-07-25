@@ -3,7 +3,8 @@
   xmlns="http://www.w3.org/2001/XMLSchema"
   xmlns:tome="https://consortium.chat/tome"
   targetNamespace="https://consortium.chat/tome"
-  elementFormDefault="qualified">
+  elementFormDefault="qualified"
+  version="1.1">
 
   <!-- Root element -->
   <element
@@ -46,7 +47,12 @@
         name="chapter"
         type="tome:chapterType"
         minOccurs="0"
-        maxOccurs="unbounded" />
+        maxOccurs="unbounded">
+        <unique name="blarg">
+          <selector xpath="./*" />
+          <field xpath="@id" />
+        </unique>
+      </element>
     </sequence>
     <attribute
       name="id"

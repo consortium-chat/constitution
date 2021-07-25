@@ -11,4 +11,5 @@
   "xml.format.preservedNewlines": 1,
   "xml.format.splitAttributesIndentSize": 1,
   "xml.format.emptyElements": "collapse",
+  "xml.format.preserveEmptyContent": true
 }
