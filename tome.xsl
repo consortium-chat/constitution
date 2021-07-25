@@ -14,6 +14,9 @@
         <link
           rel="stylesheet"
           href="tome.css" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1" />
         <script
           src="https://twemoji.maxcdn.com/v/13.1.0/twemoji.min.js"
           integrity="sha384-gPMUf7aEYa6qc3MgqTrigJqf4gzeO6v11iPCKv+AP2S4iWRWCoWyiR+Z7rWHM/hU"
