@@ -1,8 +1,15 @@
+:root {
+  --title-height: 48px;
+  --chapter-height: 40px;
+  --section-height: 28px;
+}
+
 p {margin-top: 0}
 
 .container {
   padding: 15px;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tome-tome-title {
@@ -17,7 +24,7 @@ p {margin-top: 0}
   white-space: nowrap;
   overflow-x: auto;
   width: 100%;
-  height: 46px;
+  height: var(--title-height);
   background-color: white;
   z-index: 50;
 }
@@ -31,11 +38,11 @@ p {margin-top: 0}
 
   position: -webkit-sticky;
   position: sticky;
-  top: 46px;
+  top: var(--title-height);
   white-space: nowrap;
   overflow-x: auto;
   width: 100%;
-  height: 38px;
+  height: var(--chapter-height);
   background-color: white;
   z-index: 49;
 }
@@ -46,11 +53,11 @@ p {margin-top: 0}
 }
 
 .marker-goto-link-chapter{
-  top: -46px;
+  top: calc(-(var(--title-height)));
 }
 
 .marker-goto-link{
-  top: -84px;
+  top: calc(-(var(--title-height) + var(--chapter-height)));
 }
 
 .chapter-body {
@@ -71,11 +78,11 @@ p {margin-top: 0}
 
   position: -webkit-sticky;
   position: sticky;
-  top: 84px;
+  top: calc(var(--chapter-height) + var(--title-height));
   white-space: nowrap;
   overflow-x: auto;
   width: 100%;
-  height: 28px;
+  height: var(--section-height);
   background-color: white;
   z-index: 48;
 }
@@ -83,10 +90,10 @@ p {margin-top: 0}
 .id-without-title>.the-id {
   position: -webkit-sticky;
   position: sticky;
-  top: 84px;
+  top: calc(var(--chapter-height) + var(--title-height));
   white-space: nowrap;
   overflow-x: auto;
-  height: 28px;
+  height: var(--section-height);
   background-color: white;
   z-index: 48;
 }
@@ -94,34 +101,34 @@ p {margin-top: 0}
 .section-with-title .section-with-title>.section-title,
 .section-with-title .id-without-title>.the-id
 {
-  top: 112px;
+  top: calc(var(--chapter-height) + var(--title-height) + var(--section-height)*1);
   z-index: 47;
 }
 .section-with-title .marker-goto-link
 {
-  top: -112px;
+  top: calc(0px - (var(--chapter-height) + var(--title-height) + var(--section-height)*1));
 }
 
 .section-with-title .section-with-title .section-with-title>.section-title,
 .section-with-title .section-with-title .id-without-title>.the-id
 {
-  top: 140px;
+  top: calc(var(--chapter-height) + var(--title-height) + var(--section-height)*2);;
   z-index: 46;
 }
 .section-with-title .section-with-title .marker-goto-link
 {
-  top: -140px;
+  top: calc(0px - (var(--chapter-height) + var(--title-height) + var(--section-height)*2));
 }
 
 .section-with-title .section-with-title .section-with-title .section-with-title>.section-title,
 .section-with-title .section-with-title .section-with-title .id-without-title>.the-id
 {
-  top: 168px;
+  top: calc(var(--chapter-height) + var(--title-height) + var(--section-height)*3);;
   z-index: 45;
 }
 .section-with-title .section-with-title .section-with-title .marker-goto-link
 {
-  top: -168px;
+  top: calc(0px - (var(--chapter-height) + var(--title-height) + var(--section-height)*3));
 }
 
 
@@ -207,9 +214,14 @@ p {margin-top: 0}
   background-color: #aabfff;
 }
 
+.id-link {
+  display: inline-block;
+}
+
 .emoji {
   width: 1.2em;
-  vertical-align: middle;
+  height: 1.2em;
+  vertical-align: top;
 }
 
 .spacer {

@@ -12,6 +12,16 @@
           <xsl:value-of select="/tome:tome/tome:title" />
         </title>
         <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap"
+          rel="stylesheet" />
+        <link
           rel="stylesheet"
           href="tome.css" />
         <meta
