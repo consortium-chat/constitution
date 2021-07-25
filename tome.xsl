@@ -227,19 +227,23 @@
           <xsl:value-of select="@id" />
         </xsl:attribute>
       </div>
-      <span class="tome-list-id">
-        <a class="id-link">
-          <xsl:attribute name="href">
-            <xsl:text>#</xsl:text>
-            <xsl:for-each select="./ancestor::*/@id">
-              <xsl:value-of select="." />
-            </xsl:for-each>
+      <div class="tome-list-item-wrapper">
+        <div class="tome-list-id">
+          <a class="id-link">
+            <xsl:attribute name="href">
+              <xsl:text>#</xsl:text>
+              <xsl:for-each select="./ancestor::*/@id">
+                <xsl:value-of select="." />
+              </xsl:for-each>
+              <xsl:value-of select="@id" />
+            </xsl:attribute>
             <xsl:value-of select="@id" />
-          </xsl:attribute>
-          <xsl:value-of select="@id" />
-        </a>
-      </span>
-      <xsl:apply-templates />
+          </a>
+        </div>
+        <div class="tome-list-item-content">
+          <xsl:apply-templates />
+        </div>
+      </div>
     </li>
   </xsl:template>
 
