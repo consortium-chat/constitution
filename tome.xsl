@@ -40,22 +40,80 @@
       </body>
     </html>
   </xsl:template>
-  <xsl:template match="/tome:tome/tome:title">
+
+  <xsl:template match="/tome:tome">
     <div class="tome-tome-title">
       <div class="marker-goto-link">
         <xsl:attribute name="id">
-          <xsl:value-of select="../@id" />
+          <xsl:value-of select="@id" />
         </xsl:attribute>
       </div>
       <a class="id-link">
         <xsl:attribute name="href">
           <xsl:text>#</xsl:text>
-          <xsl:value-of select="../@id" />
+          <xsl:value-of select="@id" />
         </xsl:attribute>
-        <xsl:value-of select="../@id" />
+        <xsl:value-of select="@id" />
       </a>
-      <xsl:value-of select="." />
+      <xsl:value-of select="tome:title" />
     </div>
+    <div id="toc" style="margin-left: 20px">
+      <input type="checkbox" id="show-toc" />
+      <label class="bold-3 toc-main-title" for="show-toc" tabindex="0">
+        <span class="chevron" />
+        Table of Contents
+      </label>
+      <ul class="toc-list" id="main-toc-list">
+        <xsl:apply-templates mode="toc" />
+      </ul>
+      <hr />
+    </div>
+    <div class="main-content">
+      <xsl:apply-templates />
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tome:title" mode="toc"><!-- nothing --></xsl:template>
+
+  <xsl:template match="tome:chapter|tome:section" mode="toc">
+    <li>
+      <a class="toc-list-id">
+        <xsl:attribute name="href">
+          <xsl:text>#</xsl:text>
+          <xsl:for-each select="./ancestor::*/@id">
+            <xsl:value-of select="." />
+          </xsl:for-each>
+          <xsl:value-of select="@id" />
+        </xsl:attribute>
+        <xsl:value-of select="@id" />
+      </a>
+      <div class="toc-list-content">
+        <div class="bold-2">
+          <xsl:value-of select="tome:title" />
+        </div>
+        <ul class="toc-list">
+          <xsl:apply-templates mode="toc" />
+        </ul>
+      </div>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="tome:text|tome:list" mode="toc">
+    <li class="toc-list-inline">
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>#</xsl:text>
+          <xsl:for-each select="./ancestor::*/@id">
+            <xsl:value-of select="." />
+          </xsl:for-each>
+          <xsl:value-of select="@id" />
+        </xsl:attribute>
+        <xsl:value-of select="@id" />
+      </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="/tome:tome/tome:title">
   </xsl:template>
 
   <xsl:template match="tome:chapter">
