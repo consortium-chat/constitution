@@ -8,7 +8,7 @@
   <title>The CONstitution</title>
   <chapter id="🤔">
     <title>Preamble</title>
-    <text id="🎬">We, the CONstituents of the CONsortium — having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize schenanigans — do hereby adopt and commit to upholding this CONstitution.</text>
+    <text id="🎬">We, the CONstituents of the CONsortium — having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize shenanigans — do hereby adopt and commit to upholding this CONstitution.</text>
   </chapter>
   <chapter id="🎩">
     <title>The CONstituency</title>
@@ -112,12 +112,12 @@
     </list>
     <section id="👶">
       <title>Simple motions</title>
-      <text id="👐">Simple motions require more than half of the votes on the motion to be in favor to pass</text>
+      <text id="👐">Simple motions require more than half of the votes on the motion to be in favor to pass.</text>
       <text id="👶">Simple motions are limited in that they are less powerful than the CONstitution.</text>
       <text id="🚫">
         Simple motions cannot
         <inlist join="or">
-          <item>ammend</item>
+          <item>amend</item>
           <item>override</item>
         </inlist>
         the CONstitution.
@@ -125,8 +125,8 @@
     </section>
     <section id="💥">
       <title>Super motions</title>
-      <text id="🌊">Super motions require more than two-thirds for the votes on the motion to be in favor to pass.</text>
-      <text id="🌟">Super motions are not at all limited. Super motions can do anything once passed, including but not limited to ammending or overriding the constitution.</text>
+      <text id="🌊">Super motions require more than two-thirds of the votes on the motion to be in favor to pass.</text>
+      <text id="🌟">Super motions are not at all limited. Super motions can do anything once passed, including but not limited to amending or overriding the CONstitution.</text>
     </section>
     <section id="🗣️">
       <title>Calling motions</title>
@@ -138,8 +138,8 @@
     <section id="🗳">
       <title>Voting on motions</title>
       <text id="👽">All CONstituents have the inalienable right to vote on pending motions if they have enough pc to do so.</text>
-      <text id="📈">A CONstituent cannot change the "direction" (in favor or against) of their vote after their first vote, include 0-votes.</text>
-      <text id="💲">Each CONstituent's first vote on each motion costs 40 PC. The cost of each additions vote by that CONstituent on that motion is 40×(1.05^N) rounded down, where N is the number of votes that CONstituent has already cast on that measure.</text>
+      <text id="📈">A CONstituent cannot change the "direction" (in favor or against) of their vote after their first vote, including 0-votes.</text>
+      <text id="💲">Each CONstituent's first vote on each motion costs 40 PC. The cost of each additional vote by that CONstituent on that motion is 40×(1.05^N) rounded down, where N is the number of votes that CONstituent has already cast on that motion.</text>
       <text id="📰">Who voted on a motion, in which direction, when, and how many votes shall be a matter of public record.</text>
     </section>
     <section id="🔚">
@@ -171,7 +171,7 @@
     <title>Default interpretations</title>
     <list id="😖">
       <intro>In case of any vagueness or simple lack of mentioning, the following defaults apply. This does not prohibit texts from explicitly specifying a different meaning.</intro>
-      <item id="⏲️">If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington</item>
+      <item id="⏲️">If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington.</item>
       <item id="⌛">
         If a text depends on when a message was 
         <inlist join="or">
@@ -181,7 +181,7 @@
         </inlist>, it is assumed to be the timestamp assigned to the message by discord, obtainable by extracting it from the snowflake ID.
       </item>
       <item id="⚛️">A text that is phrased as changing some state of the universe is assumed to mean the CONsortium shall take action to make that change happen.</item>
-      <item id="💣">A supermotion that does things not allowed by the constitution implicitly ammends the constitution to allow it to do those things, in the minimal amount posible.</item>
+      <item id="💣">A supermotion that does things not allowed by the CONstitution implicitly amends the CONstitution to allow it to do those things, in the minimal amount possible.</item>
     </list>
   </chapter>
 </tome>
