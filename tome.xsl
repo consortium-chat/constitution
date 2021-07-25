@@ -42,12 +42,12 @@
   </xsl:template>
 
   <xsl:template match="/tome:tome">
+    <div class="marker-goto-link">
+      <xsl:attribute name="id">
+        <xsl:value-of select="@id" />
+      </xsl:attribute>
+    </div>
     <div class="tome-tome-title">
-      <div class="marker-goto-link">
-        <xsl:attribute name="id">
-          <xsl:value-of select="@id" />
-        </xsl:attribute>
-      </div>
       <a class="id-link">
         <xsl:attribute name="href">
           <xsl:text>#</xsl:text>
