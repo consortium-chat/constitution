@@ -45,7 +45,18 @@
       <item id="⚡">Generators (gens)</item>
       <item id="💎">StatusBux (sb)</item>
     </list>
-    <text id="💥">Fungibles can not be created or destroyed.</text>
+    <text id="💥">
+      Fungibles can not be
+      <inlist join="andor">
+        <item>created</item>
+        <item>destroyed</item>
+      </inlist>
+      except as specifically authorized in
+      <inlist join="andor">
+        <item>super motions</item>
+        <item>this CONstitution</item>
+      </inlist>.
+    </text>
     <section id="✈️">
       <title>Protection from transfer</title>
       <text id="🤗">Fungibles can not be transferred without the explicit consent of the current owner.</text>
@@ -58,6 +69,12 @@
         counts as explicit consent to remove the necessary PC.
       </text>
     </section>
+    <section id="♻️">
+      <title>Generators</title>
+      <text id="♻️">
+        Every day at midnight UTC all owners of any generators receive one PC for each generator they own at that moment.
+      </text>
+    </section>
     <section id="👤">
       <title>Privacy of fungibles</title>
       <text id="📈">The amount of fungibles owned by a person (their balance) is private, and must not be revealed without their explicit consent.</text>
@@ -68,7 +85,7 @@
         <item id="👌">At least one party has given explicit consent.</item>
       </list>
       <text id="👁️">
-        The protections in this sections shall not be construed to
+        The protections in this section shall not be construed to
         <inlist join="or">
           <item>prohibit</item>
           <item>restrict</item>
@@ -182,6 +199,7 @@
       </item>
       <item id="⚛️">A text that is phrased as changing some state of the universe is assumed to mean the CONsortium shall take action to make that change happen.</item>
       <item id="💣">A supermotion that does things not allowed by the constitution implicitly ammends the constitution to allow it to do those things, in the minimal amount posible.</item>
+      <item id="💸">A text that requires the destruction of fungibles can be satisfied by the owner of those fungibles voluntarily transferring the correct number of fungibles to the user id 1. XXX REWORD THIS BETTER</item>
     </list>
   </chapter>
 </tome>
