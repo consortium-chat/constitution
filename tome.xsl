@@ -214,6 +214,33 @@
     </div>
   </xsl:template>
 
+  <xsl:template match="tome:toa">
+    <xsl:if test="@definition = 'true'">
+      <xsl:element name="div">
+        <xsl:attribute name="class">marker-goto-link marker-goto-link-inline</xsl:attribute>
+        <xsl:attribute name="id">toa-<xsl:value-of select="./@ref" /></xsl:attribute>
+      </xsl:element>
+    </xsl:if>
+    <xsl:element name="span">
+      <xsl:attribute name="class">term-of-art</xsl:attribute>
+      <xsl:apply-templates />
+      <xsl:element name="span">
+        <xsl:attribute name="title"><xsl:value-of select="./@ref" /></xsl:attribute>
+        <xsl:attribute name="class">term-of-art-label</xsl:attribute>
+        <xsl:choose>
+          <xsl:when test="@definition = 'true'">toa-def</xsl:when>
+          <xsl:otherwise>
+            <xsl:element name="a">
+              <xsl:attribute name="class">term-of-art-link</xsl:attribute>
+              <xsl:attribute name="href">#toa-<xsl:value-of select="./@ref" /></xsl:attribute>
+              toa
+            </xsl:element>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:element>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="tome:inlist">
     <span class="tome-inlist">
       <xsl:for-each select="tome:item[position() &lt; last()]">

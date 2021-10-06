@@ -100,6 +100,9 @@
       <element
         name="inlist"
         type="tome:inlistType" />
+      <element
+        name="toa"
+        type="tome:toaType" />
     </choice>
   </complexType>
 
@@ -113,10 +116,26 @@
       <element
         name="inlist"
         type="tome:inlistType" />
+      <element
+        name="toa"
+        type="tome:toaType" />
     </choice>
     <attribute
       name="id"
       type="tome:idType"
+      use="required" />
+  </complexType>
+
+  <!-- Term of Art declaration -->
+  <complexType name="toaType" mixed="true">
+    <attribute
+      name="definition"
+      type="boolean"
+      default="false"
+      use="optional" />
+    <attribute
+      name="ref"
+      type="string"
       use="required" />
   </complexType>
 
@@ -475,7 +494,6 @@
       <enumeration value="🐕" />
       <enumeration value="🐩" />
       <enumeration value="🦮" />
-      <enumeration value="🐕‍🦺" />
       <enumeration value="🐈" />
       <enumeration value="🐓" />
       <enumeration value="🦃" />
