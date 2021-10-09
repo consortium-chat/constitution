@@ -52,6 +52,11 @@ p {margin-top: 0}
   position: relative;
 }
 
+.marker-goto-link-inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .marker-goto-link-chapter{
   top: calc(0px - (var(--title-height)));
 }
@@ -293,4 +298,19 @@ li.toc-list-inline {
 
 .id-link:focus {
   background-color: #0000ee55;
+}
+
+.term-of-art {
+  font-weight: 500;
+}
+
+.term-of-art-label {
+  font-size: 75%;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+.term-of-art-link {
+  color: inherit;
+  display: inline-block;
 }

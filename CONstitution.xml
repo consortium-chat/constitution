@@ -8,13 +8,13 @@
   <title>The CONstitution</title>
   <chapter id="🤔">
     <title>Preamble</title>
-    <text id="🎬">We, the CONstituents of the CONsortium — having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize shenanigans — do hereby adopt and commit to upholding this CONstitution.</text>
+    <text id="🎬">We, the <toa ref="constituent">CONstituents</toa> of the CONsortium — having resolved to ensure long-lasting CONsensus of moderation, perpetuate burocracy, and formalize shenanigans — do hereby adopt and commit to upholding this <toa definition="true" ref="constitution">CONstitution</toa>.</text>
   </chapter>
   <chapter id="🎩">
     <title>The CONstituency</title>
-    <text id="📖">The CONstituency is the body of active voters.</text>
+    <text id="📖">The <toa definition="true" ref="constituent">CONstituency</toa> is the body of active voters.</text>
     <list id="📃">
-      <intro>Membership in The CONstituency is exclusive and only includes these people:</intro>
+      <intro>Membership in The <toa ref="constituent">CONstituency</toa> is exclusive and only includes these people:</intro>
       <item id="🐚">shelvacu#8719 (discord id 165858230327574528)</item>
       <item id="🙉">colin#7983 (discord id 125003180219170816)</item>
       <item id="🙃">metanomial#0001 (discord id 155438323354042368)</item>
@@ -23,65 +23,65 @@
     </list>
     <section id="👑">
       <title>Supreme Leaders</title>
-      <text id="📖">"Supreme Leader" is a title that a CONstituent may carry.</text>
+      <text id="📖"><toa definition="true" ref="supreme-leader">Supreme Leader</toa> is a title that a <toa ref="constituent">CONstituent</toa> may carry.</text>
       <list id="📃">
-        <intro>The following CONstituents are Supreme Leaders:</intro>
+        <intro>The following <toa ref="constituent">CONstituents</toa> are <toa ref="supreme-leader">Supreme Leaders</toa>:</intro>
         <item id="🐚">shelvacu#8719 (discord id 165858230327574528)</item>
         <item id="🙉">colin#7983 (discord id 125003180219170816)</item>
         <item id="🙃">metanomial#0001 (discord id 155438323354042368)</item>
       </list>
-      <text id="✔">Supreme Leaders may do anything by unanimous vote of all current Supreme Leaders. This is an "override vote".</text>
-      <text id="❌">A message must call for an override vote somehow. A motion in which all Supreme Leaders have voted in favor does not trigger an override vote.</text>
+      <text id="✔"><toa ref="supreme-leader">Supreme Leaders</toa> may do anything by unanimous informal vote of all current <toa ref="supreme-leader">Supreme Leaders</toa>. This is an <toa definition="true" ref="override-vote">override vote</toa>.</text>
+      <text id="❌">A message must call for an <toa ref="override-vote">override vote</toa> somehow. A <toa ref="motion">motion</toa> in which all <toa ref="supreme-leader">Supreme Leaders</toa> have <toa ref="motion-vote">voted</toa> in favor does not trigger an <toa ref="override-vote">override vote</toa>.</text>
     </section>
   </chapter>
   <chapter id="💳">
     <title>Fungibles</title>
-    <text id="📖">Fungibles are indivisible units of currency — owned by CONstituents and/or Discord users — that may be useful for other purposes.</text>
+    <text id="📖"><toa definition="true" ref="fungible">Fungibles</toa> are indivisible units of currency — owned by <toa ref="constituent">CONstituents</toa> and/or Discord users — that may be useful for other purposes.</text>
     <list
       id="📃"
       join="and">
-      <intro>The classes of fungibles are:</intro>
-      <item id="⭐">Political Capital (pc)</item>
-      <item id="⚡">Generators (gens)</item>
-      <item id="💎">StatusBux (sb)</item>
+      <intro>The classes of <toa ref="fungible">fungibles</toa> are:</intro>
+      <item id="⭐"><toa definition="true" ref="fungible-pc">Political Capital (pc)</toa></item>
+      <item id="⚡"><toa definition="true" ref="fungible-gen">Generators (gens)</toa></item>
+      <item id="💎"><toa definition="true" ref="fungible-sb">StatusBux (sb)</toa></item>
     </list>
     <text id="💥">
-      Fungibles can not be
+      <toa ref="fungible">Fungibles</toa> can not be
       <inlist join="andor">
         <item>created</item>
         <item>destroyed</item>
       </inlist>
       except as specifically authorized in
       <inlist join="andor">
-        <item>super motions</item>
-        <item>this CONstitution</item>
+        <item><toa ref="super-motion">super motions</toa></item>
+        <item>this <toa ref="constitution">CONstitution</toa></item>
       </inlist>.
     </text>
     <section id="✈️">
       <title>Protection from transfer</title>
-      <text id="🤗">Fungibles can not be transferred without the explicit consent of the current owner.</text>
+      <text id="🤗"><toa ref="fungible">Fungibles</toa> can not be transferred without the explicit consent of the current owner.</text>
       <text id="🗳">
-        Making an action to 
+        Making an action to
         <inlist join="or">
-          <item>cast a vote</item>
-          <item>create a motion that requires votes</item> 
+          <item>cast a <toa ref="motion-vote">vote</toa></item>
+          <item>create a <toa ref="motion">motion</toa> that requires <toa ref="motion-vote">votes</toa></item> 
         </inlist>
-        counts as explicit consent to remove the necessary PC.
+        counts as explicit consent to remove the necessary <toa ref="fungible-pc">PC</toa>.
       </text>
     </section>
     <section id="♻️">
       <title>Generators</title>
       <text id="♻️">
-        Every day at midnight UTC all owners of any generators receive one PC for each generator they own at that moment.
+        Every day at midnight UTC all owners of any <toa ref="fungible-gen">generators</toa> receive one <toa ref="fungible-pc">PC</toa> for each <toa ref="fungible-gen">generator</toa> they own at that moment.
       </text>
     </section>
     <section id="👤">
       <title>Privacy of fungibles</title>
-      <text id="📈">The amount of fungibles owned by a person (their balance) is private, and must not be revealed without their explicit consent.</text>
+      <text id="📈">The amount of <toa ref="fungible">fungibles</toa> owned by a person (their <toa definition="true" ref="fungible-balance">balances</toa>) is private, and must not be revealed without their explicit consent.</text>
       <list id="👀" join="or">
         <intro>The transactions that a person has participated in are private, and must not be revealed unless:</intro>
-        <item id="🗳">The transaction is a vote on a motion.</item>
-        <item id="📜">The transaction is creating a motion.</item>
+        <item id="🗳">The transaction is a <toa ref="motion-vote">vote</toa> on a <toa ref="motion">motion</toa>.</item>
+        <item id="📜">The transaction is creating a <toa ref="motion">motion</toa>.</item>
         <item id="👌">At least one party has given explicit consent.</item>
       </list>
       <text id="👁️">
@@ -96,9 +96,9 @@
           <item>fabrication</item>
           <item>destruction</item>
         </inlist>
-        of fungibles, even if such may in effect reveal details about a person's
+        of <toa ref="fungible">fungibles</toa>, even if such may in effect reveal details about a person's
         <inlist join="or">
-          <item>balances</item>
+          <item><toa ref="fungible-balance">balances</toa></item>
           <item>transactions</item>
         </inlist>.
       </text>
@@ -107,7 +107,7 @@
   <chapter id="📜">
     <title>Motions</title>
     <list id="🤔" join="or">
-      <intro>A motion is a proposed action to be taken by the CONsortium as an entity in theory, and once passed allows members to take action to implement it in practice. This includes but is not limited to:</intro>
+      <intro>A <toa definition="true" ref="motion">motion</toa> is a proposed action to be taken by the CONsortium as an entity in theory, and once passed allows members to take action to implement it in practice. This includes but is not limited to:</intro>
       <item id="⚙️">Making changes to the discord server</item>
       <item id="💸">
         <inlist join="andor">
@@ -115,91 +115,92 @@
           <item>transferring</item>
           <item>destroying</item>
         </inlist>
-        fungibles
+        <toa ref="fungible">fungibles</toa>
       </item>
       <item id="🗣️">Declarations</item>
       <item id="📋">Adopting administrative procedures</item>
       <item id="📝">Amending tomes, including The CONstitution</item>
     </list>
-    <text id="🔢">A motion is first Proposed, then voted on, then possibly Passed. A motion can not have any effect before it is passed.</text>
+    <text id="🔢">A <toa ref="motion">motion</toa> is first <toa definition="true" ref="motion-propose">proposed</toa>, after which it is <toa definition="true" ref="motion-state-pending">pending</toa> during which it can be voted on, then possibly <toa definition="true" ref="motion-pass">passed</toa>. A <toa ref="motion">motion</toa> can not have any effect before it is <toa ref="motion-pass">passed</toa>.</text>
     <list join="and" id="2️⃣">
-      <intro>There are two kinds of motions:</intro>
-      <item id="👶">Simple motions</item>
-      <item id="💥">Super motions</item>
+      <intro>There are two kinds of <toa ref="motion">motions</toa>:</intro>
+      <item id="👶"><toa definition="true" ref="motion-simple">Simple motions</toa></item>
+      <item id="💥"><toa definition="true" ref="motion-super">Super motions</toa></item>
     </list>
     <section id="👶">
       <title>Simple motions</title>
-      <text id="👐">Simple motions require more than half of the votes on the motion to be in favor to pass.</text>
-      <text id="👶">Simple motions are limited in that they are less powerful than the CONstitution.</text>
+      <text id="👐"><toa ref="motion-simple">Simple motions</toa> require more than half of the <toa ref="motion-vote">votes</toa> on the <toa ref="motion">motion</toa> to be in favor to <toa ref="motion-pass">pass</toa>.</text>
+      <text id="👶"><toa ref="motion-simple">Simple motions</toa> are limited in that they are less powerful than the <toa ref="constitution">CONstitution</toa>.</text>
       <text id="🚫">
-        Simple motions cannot
+        <toa ref="motion-simple">Simple motions</toa> cannot
         <inlist join="or">
           <item>amend</item>
           <item>override</item>
         </inlist>
-        the CONstitution.
+        the <toa ref="constitution">CONstitution</toa>.
       </text>
     </section>
     <section id="💥">
       <title>Super motions</title>
-      <text id="🌊">Super motions require more than two-thirds of the votes on the motion to be in favor to pass.</text>
-      <text id="🌟">Super motions are not at all limited. Super motions can do anything once passed, including but not limited to amending or overriding the CONstitution.</text>
+      <text id="🌊"><toa ref="motion-super">Super motions</toa> require more than two-thirds of the <toa ref="motion-vote">votes</toa> on the <toa ref="motion">motion</toa> to be in favor to <toa ref="motion-pass">pass</toa>.</text>
+      <text id="🌟"><toa ref="motion-super">Super motions</toa> are not at all limited. <toa ref="motion-super">Super motions</toa> can do anything once passed, including but not limited to amending or overriding the CONstitution.</text>
     </section>
     <section id="🗣️">
       <title>Calling motions</title>
-      <text id="👽">All CONstituents have the inalienable right to call motions if they have enough pc to do so and have not exceeded their daily limit.</text>
-      <text id="❔">Each CONstituent is limited to 10 motions (no matter which kind) per UTC day.</text>
-      <text id="👶">To call a simple motion, a CONstituent must have enough PC to vote for that motion at least **once**. When called, they do and must vote for that motion at least **once**.</text>
-      <text id="💥">To call a super motion, a CONstituent must have enough PC to vote for that motion at least **twice**. When called, they do and must vote for that motion at least **twice**.</text>
+      <text id="👽">All <toa ref="constituent">CONstituents</toa> have the inalienable right to <toa ref="motion-propose">call motions</toa> if they have enough <toa ref="fungible-pc">pc</toa> to do so and have not exceeded their daily limit.</text>
+      <text id="❔">Each CONstituent is limited to <toa ref="motion-propose">proposing</toa> 10 <toa ref="motion">motions</toa> (no matter which kind) per UTC day.</text>
+      <text id="👶">To call a <toa ref="motion-simple">simple motion</toa>, a <toa ref="constituent">CONstituent</toa> must have enough <toa ref="fungible-pc">PC</toa> to <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **once**. When called, they do and must <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **once**.</text>
+      <text id="💥">To call a <toa ref="motion-super">super motion</toa>, a <toa ref="constituent">CONstituent</toa> must have enough <toa ref="fungible-pc">PC</toa> to <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **twice**. When called, they do and must <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **twice**.</text>
     </section>
     <section id="🗳">
       <title>Voting on motions</title>
-      <text id="👽">All CONstituents have the inalienable right to vote on pending motions if they have enough pc to do so.</text>
-      <text id="📈">A CONstituent cannot change the "direction" (in favor or against) of their vote after their first vote, including 0-votes.</text>
-      <text id="💲">Each CONstituent's first vote on each motion costs 40 PC. The cost of each additional vote by that CONstituent on that motion is 40×(1.05^N) rounded down, where N is the number of votes that CONstituent has already cast on that motion.</text>
-      <text id="📰">Who voted on a motion, in which direction, when, and how many votes shall be a matter of public record.</text>
+      <text id="🗳">A <toa definition="true" ref="motion-vote">vote</toa> is an irreversible action taken by a <toa ref="constituent">CONstituent</toa> that costs <toa ref="fungible-pc">pc</toa> and potentially effects the result of <toa ref="motion">motions</toa>.</text>
+      <text id="👽">All <toa ref="constituent">CONstituents</toa> have the inalienable right to <toa ref="motion-vote">vote</toa> on <toa ref="motion-state-pending">pending</toa> <toa ref="motion">motions</toa> if they have enough <toa ref="fungible-pc">pc</toa> to do so.</text>
+      <text id="📈">A <toa ref="constituent">CONstituent</toa> cannot change the <toa definition="true" ref="motion-vote-direction">direction</toa> (in favor or against) of their <toa ref="motion-vote">vote</toa> after their first <toa ref="motion-vote">vote</toa>, including <toa ref="motion-zero-vote">0-votes</toa>.</text>
+      <text id="💲">Each <toa ref="constituent">CONstituent's</toa> first <toa ref="motion-vote">vote</toa> on each <toa ref="motion">motion</toa> costs 40 <toa ref="fungible-pc">PC</toa>. The cost of each additional <toa ref="motion-vote">vote</toa> by that <toa ref="constituent">CONstituent</toa> on that <toa ref="motion">motion</toa> is 40×(1.05^N) rounded down, where N is the number of <toa ref="motion-vote">votes</toa> that <toa ref="constituent">CONstituent</toa> has already cast on that <toa ref="motion">motion</toa>.</text>
+      <text id="📰">Who <toa ref="motion-vote">voted</toa> on a <toa ref="motion">motion</toa>, in which <toa ref="motion-vote-direction">direction</toa>, when, and how many <toa ref="motion-vote">votes</toa> shall be a matter of public record.</text>
     </section>
     <section id="🔚">
       <title>End of a motion</title>
-      <text id="🔚">A motion ends when the motion's potential result (pass or fail based on the number of votes) hasn't changed for 48 hours. At that moment, the motion can no longer be voted on, and goes into effect if it passes.</text>
+      <text id="🔚">A <toa ref="motion">motion</toa> ends when the <toa ref="motion">motion's</toa> potential result (pass or fail based on the number of <toa ref="motion-vote">votes</toa>) hasn't changed for 48 hours. At that moment, the <toa ref="motion">motion</toa> can no longer be <toa ref="motion-vote">voted on</toa>, and goes into effect if it <toa ref="motion-pass">passes</toa>.</text>
     </section>
   </chapter>
   <chapter id="🔢">
     <title>Order of precedence</title>
-    <text id="📑">The law and prescribed actions of the CONsortium are the whole sum of the CONstitution and all passed motions, taken together.</text>
+    <text id="📑">The law and prescribed actions of the CONsortium are the whole sum of the <toa ref="constitution">CONstitution</toa> and all <toa ref="motion-pass">passed</toa> <toa ref="motion">motions</toa>, taken together.</text>
     <list id="⚔️">
-      <intro>Sections of the CONstitution and/or sections of motions ("texts") may contradict eachother; If so, the first applicable item before resolves the contradiction:</intro>
+      <intro>Sections of the <toa ref="constitution">CONstitution</toa> and/or sections of <toa ref="motion">motions</toa> (<toa definition="true" ref="law-text">texts</toa>) may contradict eachother; If so, the first applicable item below resolves the contradiction:</intro>
       <item id="💥">
         <inlist join="and">
-          <item>Super motions</item>
-          <item>the CONstitution</item>
+          <item><toa ref="motion-super">Super motions</toa></item>
+          <item><toa ref="constitution">the CONstitution</toa></item>
         </inlist>
-        take precedence over simple motions.
+        take precedence over <toa ref="motion-simple">simple motions</toa>.
       </item>
       <item id="🗣️">
-        If a text says it overrides the other (or other similar phrasing) but not vice-versa, then it does.
+        If a <toa ref="law-text">text</toa> says it overrides the other (or other similar phrasing) but not vice-versa, then it does.
       </item>
       <item id="⏲️">
-        The text that passed later overrides the text that was passed earlier.
+        The <toa ref="law-text">text</toa> that passed later overrides the <toa ref="law-text">text</toa> that was passed earlier.
       </item>
     </list>
   </chapter>
   <chapter id="😖">
     <title>Default interpretations</title>
     <list id="😖">
-      <intro>In case of any vagueness or simple lack of mentioning, the following defaults apply. This does not prohibit texts from explicitly specifying a different meaning.</intro>
+      <intro>In case of any vagueness or simple lack of mentioning, the following defaults apply. This does not prohibit <toa ref="law-text">texts</toa> from explicitly specifying a different meaning.</intro>
       <item id="⏲️">If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington.</item>
       <item id="⌛">
-        If a text depends on when a message was 
+        If a <toa ref="law-text">text</toa> depends on when a message was 
         <inlist join="or">
           <item>"posted"</item>
           <item>"sent"</item>
           <item>similar</item>
         </inlist>, it is assumed to be the timestamp assigned to the message by discord, obtainable by extracting it from the snowflake ID.
       </item>
-      <item id="⚛️">A text that is phrased as changing some state of the universe is assumed to mean the CONsortium shall take action to make that change happen.</item>
-      <item id="💣">A supermotion that does things not allowed by the CONstitution implicitly ammends the CONstitution to allow it to do those things, in the minimal amount posible.</item>
-      <item id="💸">A text that requires the destruction of fungibles can be satisfied by the owner of those fungibles voluntarily transferring the correct number of fungibles to the user id 1. XXX REWORD THIS BETTER</item>
+      <item id="⚛️">A <toa ref="law-text">text</toa> that is phrased as changing some state of the universe is assumed to mean the CONsortium shall take action to make that change happen.</item>
+      <item id="💣">A <toa ref="motion-super">supermotion</toa> that does things not allowed by the <toa ref="constitution">CONstitution</toa> implicitly ammends the <toa ref="constitution">CONstitution</toa> to allow it to do those things, and no other changes.</item>
+      <item id="💸">A <toa ref="law-text">text</toa> that requires the destruction of <toa ref="fungible">fungibles</toa> can be satisfied by the owner of those <toa ref="fungible">fungibles</toa> voluntarily transferring the correct number of <toa ref="fungible">fungibles</toa> to the (non-existant) user id 1.</item>
     </list>
   </chapter>
 </tome>
