@@ -36,6 +36,7 @@
               <xsl:value-of select="@version"/>
             </xsl:element>
           </xsl:element>
+          <xsl:apply-templates select="@*"/>
           <xsl:apply-templates select="xsi:annotation/xsi:documentation" mode="documentation"/>
         </xsl:element>
         <xsl:apply-templates select="xsi:*"/>
