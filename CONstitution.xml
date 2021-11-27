@@ -18,7 +18,7 @@
       <item id="🐚">shelvacu#8719 (discord id 165858230327574528)</item>
       <item id="🙉">colin#7983 (discord id 125003180219170816)</item>
       <item id="🙃">metanomial#0001 (discord id 155438323354042368)</item>
-      <item id="✨">azure#3608 (discord id 182663630280589312)</item>
+      <item id="✨️">azure#3608 (discord id 182663630280589312)</item>
       <item id="💳">mstafford#7067 (discord id 373610438560317441)</item>
     </list>
     <section id="👑">
@@ -30,8 +30,8 @@
         <item id="🙉">colin#7983 (discord id 125003180219170816)</item>
         <item id="🙃">metanomial#0001 (discord id 155438323354042368)</item>
       </list>
-      <text id="✔"><toa ref="supreme-leader">Supreme Leaders</toa> may do anything by unanimous informal vote of all current <toa ref="supreme-leader">Supreme Leaders</toa>. This is an <toa definition="true" ref="override-vote">override vote</toa>.</text>
-      <text id="❌">A message must call for an <toa ref="override-vote">override vote</toa> somehow. A <toa ref="motion">motion</toa> in which all <toa ref="supreme-leader">Supreme Leaders</toa> have <toa ref="motion-vote">voted</toa> in favor does not trigger an <toa ref="override-vote">override vote</toa>.</text>
+      <text id="✔️"><toa ref="supreme-leader">Supreme Leaders</toa> may do anything by unanimous informal vote of all current <toa ref="supreme-leader">Supreme Leaders</toa>. This is an <toa definition="true" ref="override-vote">override vote</toa>.</text>
+      <text id="❌️">A message must call for an <toa ref="override-vote">override vote</toa> somehow. A <toa ref="motion">motion</toa> in which all <toa ref="supreme-leader">Supreme Leaders</toa> have <toa ref="motion-vote">voted</toa> in favor does not trigger an <toa ref="override-vote">override vote</toa>.</text>
     </section>
   </chapter>
   <chapter id="💳">
@@ -41,8 +41,8 @@
       id="📃"
       join="and">
       <intro>The classes of <toa ref="fungible">fungibles</toa> are:</intro>
-      <item id="⭐"><toa definition="true" ref="fungible-pc">Political Capital (pc)</toa></item>
-      <item id="⚡"><toa definition="true" ref="fungible-gen">Generators (gens)</toa></item>
+      <item id="⭐️"><toa definition="true" ref="fungible-pc">Political Capital (pc)</toa></item>
+      <item id="⚡️"><toa definition="true" ref="fungible-gen">Generators (gens)</toa></item>
       <item id="💎"><toa definition="true" ref="fungible-sb">StatusBux (sb)</toa></item>
     </list>
     <text id="💥">
@@ -60,11 +60,11 @@
     <section id="✈️">
       <title>Protection from transfer</title>
       <text id="🤗"><toa ref="fungible">Fungibles</toa> can not be transferred without the explicit consent of the current owner.</text>
-      <text id="🗳">
+      <text id="🗳️">
         Making an action to
         <inlist join="or">
           <item>cast a <toa ref="motion-vote">vote</toa></item>
-          <item>create a <toa ref="motion">motion</toa> that requires <toa ref="motion-vote">votes</toa></item> 
+          <item>create a <toa ref="motion">motion</toa> that requires <toa ref="motion-vote">votes</toa></item>
         </inlist>
         counts as explicit consent to remove the necessary <toa ref="fungible-pc">PC</toa>.
       </text>
@@ -80,7 +80,7 @@
       <text id="📈">The amount of <toa ref="fungible">fungibles</toa> owned by a person (their <toa definition="true" ref="fungible-balance">balances</toa>) is private, and must not be revealed without their explicit consent.</text>
       <list id="👀" join="or">
         <intro>The transactions that a person has participated in are private, and must not be revealed unless:</intro>
-        <item id="🗳">The transaction is a <toa ref="motion-vote">vote</toa> on a <toa ref="motion">motion</toa>.</item>
+        <item id="🗳️">The transaction is a <toa ref="motion-vote">vote</toa> on a <toa ref="motion">motion</toa>.</item>
         <item id="📜">The transaction is creating a <toa ref="motion">motion</toa>.</item>
         <item id="👌">At least one party has given explicit consent.</item>
       </list>
@@ -148,13 +148,13 @@
     <section id="🗣️">
       <title>Calling motions</title>
       <text id="👽">All <toa ref="constituent">CONstituents</toa> have the inalienable right to <toa ref="motion-propose">call motions</toa> if they have enough <toa ref="fungible-pc">pc</toa> to do so and have not exceeded their daily limit.</text>
-      <text id="❔">Each CONstituent is limited to <toa ref="motion-propose">proposing</toa> 10 <toa ref="motion">motions</toa> (no matter which kind) per UTC day.</text>
+      <text id="❔️">Each CONstituent is limited to <toa ref="motion-propose">proposing</toa> 10 <toa ref="motion">motions</toa> (no matter which kind) per UTC day.</text>
       <text id="👶">To call a <toa ref="motion-simple">simple motion</toa>, a <toa ref="constituent">CONstituent</toa> must have enough <toa ref="fungible-pc">PC</toa> to <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **once**. When called, they do and must <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **once**.</text>
       <text id="💥">To call a <toa ref="motion-super">super motion</toa>, a <toa ref="constituent">CONstituent</toa> must have enough <toa ref="fungible-pc">PC</toa> to <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **twice**. When called, they do and must <toa ref="motion-vote">vote</toa> for that <toa ref="motion">motion</toa> at least **twice**.</text>
     </section>
-    <section id="🗳">
+    <section id="🗳️">
       <title>Voting on motions</title>
-      <text id="🗳">A <toa definition="true" ref="motion-vote">vote</toa> is an irreversible action taken by a <toa ref="constituent">CONstituent</toa> that costs <toa ref="fungible-pc">pc</toa> and potentially effects the result of <toa ref="motion">motions</toa>.</text>
+      <text id="🗳️">A <toa definition="true" ref="motion-vote">vote</toa> is an irreversible action taken by a <toa ref="constituent">CONstituent</toa> that costs <toa ref="fungible-pc">pc</toa> and potentially effects the result of <toa ref="motion">motions</toa>.</text>
       <text id="👽">All <toa ref="constituent">CONstituents</toa> have the inalienable right to <toa ref="motion-vote">vote</toa> on <toa ref="motion-state-pending">pending</toa> <toa ref="motion">motions</toa> if they have enough <toa ref="fungible-pc">pc</toa> to do so.</text>
       <text id="📈">A <toa ref="constituent">CONstituent</toa> cannot change the <toa definition="true" ref="motion-vote-direction">direction</toa> (in favor or against) of their <toa ref="motion-vote">vote</toa> after their first <toa ref="motion-vote">vote</toa>, including <toa ref="motion-zero-vote">0-votes</toa>.</text>
       <text id="💲">Each <toa ref="constituent">CONstituent's</toa> first <toa ref="motion-vote">vote</toa> on each <toa ref="motion">motion</toa> costs 40 <toa ref="fungible-pc">PC</toa>. The cost of each additional <toa ref="motion-vote">vote</toa> by that <toa ref="constituent">CONstituent</toa> on that <toa ref="motion">motion</toa> is 40×(1.05^N) rounded down, where N is the number of <toa ref="motion-vote">votes</toa> that <toa ref="constituent">CONstituent</toa> has already cast on that <toa ref="motion">motion</toa>.</text>
@@ -190,8 +190,8 @@
     <list id="😖">
       <intro>In case of any vagueness or simple lack of mentioning, the following defaults apply. This does not prohibit <toa ref="law-text">texts</toa> from explicitly specifying a different meaning.</intro>
       <item id="⏲️">If a time of day is mentioned, it is assumed to be in Pacific Time as used by the state of Washington.</item>
-      <item id="⌛">
-        If a <toa ref="law-text">text</toa> depends on when a message was 
+      <item id="⌛️">
+        If a <toa ref="law-text">text</toa> depends on when a message was
         <inlist join="or">
           <item>"posted"</item>
           <item>"sent"</item>
