@@ -25,6 +25,7 @@
   --monospace-font: "Roboto Mono", monospace;
   --background-color: #f4f5ed;
   --text-color: #2e2e31;
+  --code-color: #746a00;
   --anchor-color: #273fc9;
 }
 
@@ -32,6 +33,7 @@
   :root {
     --background-color: #252527;
     --text-color: #e4e4de;
+    --code-color: #cfc99a;
     --anchor-color: #8e9ef5;
   }
 }
@@ -108,6 +110,8 @@ summary {
 
 code {
   font-family: var(--monospace-font);
+  color: var(--code-color);
+  font-weight: 300;
 }
 
 ul {
