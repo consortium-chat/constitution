@@ -1,0 +1,25 @@
+details {
+  border: 1px solid var(--text-color);
+}
+
+details.locked summary {
+  list-style: none;
+  cursor: inherit;
+}
+
+details > details:last-child {
+  margin-block-end: 0;
+}
+
+summary p {
+  margin: 0;
+}
+
+summary p.heading + p, summary p.documentation {
+  margin-block-start: 0.4rem;
+}
+
+summary p.heading {
+  display: inline-block;
+  font-size: larger;
+}

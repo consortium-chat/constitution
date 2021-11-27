@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/Roboto.woff2") format("woff2-variations");
+  font-weight: 100 800;
+  font-stretch: 75% 100%;
+  font-style: normal italic;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/assets/RobotoMono.woff2") format("woff2-variations");
+  font-weight: 100 700;
+  font-stretch: 100%;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sans-serif-font: "Roboto", sans-serif;
+  --monospace-font: "Roboto Mono", monospace;
+  --background-color: #f4f5ed;
+  --text-color: #2e2e31;
+  --anchor-color: #273fc9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #252527;
+    --text-color: #e4e4de;
+    --anchor-color: #8e9ef5;
+  }
+}
+
+body {
+  padding: 2rem;
+  max-inline-size: 40rem;
+  margin: auto;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-size: 1.2em;
+  font-family: var(--sans-serif-font);
+  line-height: 1.25;
+}
+
+header {
+  margin-block: 1.4rem;
+}
+
+footer {
+  margin-block-start: 1.4rem;
+  margin-block-end: 2.8rem;
+}
+
+hgroup {
+  margin-block: 1.4rem;
+}
+
+hgroup :is(h1, h2, h3, h4, h5, h6, p) {
+  margin-block: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block: 1.4rem;
+}
+
+p {
+  margin-block: 1rem;
+}
+
+a {
+  color: var(--anchor-color);
+  text-decoration: none;
+}
+
+@media print {
+  a {
+    text-decoration: underline;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figcaption {
+  font-variant: small-caps;
+  font-weight: 500;
+  margin-block: 1rem;
+}
+
+section {
+  margin-block: 1.4rem;
+}
+
+details {
+  margin-block: 1rem;
+  padding: 1rem;
+}
+
+summary {
+  cursor: pointer;
+}
+
+code {
+  font-family: var(--monospace-font);
+}
+
+ul {
+  margin-block: 1rem;
+  padding-inline-start: 2rem;
+  list-style: square;
+}
