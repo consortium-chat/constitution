@@ -74,6 +74,7 @@
     <xsl:apply-templates select="@*"/>
     <xsl:apply-templates select="xsi:annotation/xsi:documentation" mode="documentation"/>
   </xsl:template>
+  <xsl:template match="@version"/>
   <xsl:template match="@*">
     <xsl:element name="p">
       <xsl:element name="strong">
@@ -82,19 +83,23 @@
         <xsl:text>:</xsl:text>
       </xsl:element>
       <xsl:text> </xsl:text>
-      <xsl:choose>
-        <xsl:when test="name() = 'namespace' or name() = 'schemaLocation'">
-          <xsl:element name="a">
-            <xsl:attribute name="href">
-              <xsl:value-of select="."/>
-            </xsl:attribute>
-            <xsl:value-of select="."/>
-          </xsl:element>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="."/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:apply-templates select="." mode="value"/>
     </xsl:element>
+  </xsl:template>
+  <xsl:template match="@namespace|@schemaLocation|@targetNamespace" mode="value">
+    <xsl:element name="a">
+      <xsl:attribute name="href">
+        <xsl:value-of select="."/>
+      </xsl:attribute>
+      <xsl:value-of select="."/>
+    </xsl:element>
+  </xsl:template>
+  <xsl:template match="@xpath|@test" mode="value">
+    <xsl:element name="code">
+      <xsl:value-of select="."/>
+    </xsl:element>
+  </xsl:template>
+  <xsl:template match="@*" mode="value">
+    <xsl:value-of select="."/>
   </xsl:template>
 </xsl:stylesheet>
