@@ -1,6 +1,5 @@
 details {
   border: 1px solid var(--text-color);
-  white-space: nowrap;
 }
 
 details > details:last-child {
