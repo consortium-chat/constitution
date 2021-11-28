@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="schema.xsl" type="text/xsl"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns:tome="https://consortium.chat/tome" targetNamespace="https://consortium.chat/tome">
+  <annotation>
+    <appinfo>Currency schema</appinfo>
+    <documentation>Module of the Tome schema containing currency types</documentation>
+  </annotation>
+  <simpleType name="currencySymbol">
+    <annotation>
+      <documentation>A currency symbol</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="GEN">
+        <annotation>
+          <documentation>The symbol for Generators</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PC">
+        <annotation>
+          <documentation>The symbol for Political Capital</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SB">
+        <annotation>
+          <documentation>The symbol for StatusBux</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+</schema>
