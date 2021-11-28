@@ -71,6 +71,7 @@
       <xsl:element name="summary">
         <xsl:apply-templates select="." mode="heading"/>
       </xsl:element>
+      <xsl:apply-templates select="xsd:annotation/xsd:documentation" mode="documentation"/>
       <xsl:call-template name="attributes"/>
       <xsl:apply-templates select="xsd:*"/>
     </xsl:element>
